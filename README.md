@@ -4,7 +4,8 @@ DocMind AI is a modern, full-stack RAG (Retrieval-Augmented Generation) applicat
 
 ![DocMind AI Demo]
 
-*(Drag and drop your screenshot or screen recording here when editing in GitHub)*
+<img width="2940" height="1622" alt="D04E4ADA-D963-48F0-9E87-C301CBCA769C_1_206_a" src="https://github.com/user-attachments/assets/7172ee62-1f1c-42cc-a829-4bfb16eb453f" />
+
 
 ## ✨ Features
 - **Upload & Chat**: Upload any PDF document and get instant, accurate answers.
