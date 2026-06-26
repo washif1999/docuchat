@@ -35,10 +35,17 @@ async def clear_cache():
             shutil.rmtree(UPLOAD_DIR)
         os.makedirs(UPLOAD_DIR, exist_ok=True)
         
-        # Clear chromadb
+        # Clear chromadb safely without locking
+        import chromadb
+        if hasattr(chromadb.api.client.SharedSystemClient, 'clear_system_cache'):
+            chromadb.api.client.SharedSystemClient.clear_system_cache()
+            
         chroma_dir = "./chroma_db"
         if os.path.exists(chroma_dir):
-            shutil.rmtree(chroma_dir)
+            try:
+                shutil.rmtree(chroma_dir)
+            except Exception:
+                pass
             
         # Reset state
         state.vectorstore = None

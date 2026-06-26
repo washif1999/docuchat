@@ -1,8 +1,8 @@
-# DocMind AI 🧠
+# DocuChat 🧠
 
-DocMind AI is a modern, full-stack RAG (Retrieval-Augmented Generation) application that lets you upload any PDF and instantly have natural language conversations about its content. 
+DocuChat is a modern, full-stack RAG (Retrieval-Augmented Generation) application that lets you upload any PDF and instantly have natural language conversations about its content. 
 
-![DocMind AI Demo]
+![DocuChat Demo]
 
 <img width="2940" height="1622" alt="D04E4ADA-D963-48F0-9E87-C301CBCA769C_1_206_a" src="https://github.com/user-attachments/assets/7172ee62-1f1c-42cc-a829-4bfb16eb453f" />
 
